@@ -26,11 +26,11 @@ TITLE = "Minesweeper"
 #import assets 
 tile_num = []
 for i in range(1,9): 
-    tile_num.append(pygame.transform.scale(pygame.image.load(os.path.join("assets", f"{i}Cell.png")), (TILESIZE, TILESIZE)))
+    tile_num.append(pygame.transform.scale(pygame.image.load(os.path.join("assets", f"Cell{i}.png")), (TILESIZE, TILESIZE)))
 
-empty_tile = pygame.transform.scale(pygame.image.load(os.path.join("assets", f"Cell.png")), (TILESIZE, TILESIZE) #update asset names accordingly 
-exploded_tile = pygame.transform.scale(pygame.image.load(os.path.join("assets", f"Cell.png")), (TILESIZE, TILESIZE)
-flag_tile = pygame.transform.scale(pygame.image.load(os.path.join("assets", f"flagCell.png")), (TILESIZE, TILESIZE)
-bomb_tile = pygame.transform.scale(pygame.image.load(os.path.join("assets", f"bombCell.png")), (TILESIZE, TILESIZE)
-unknown_tile = pygame.transform.scale(pygame.image.load(os.path.join("assets", f"Cell.png")), (TILESIZE, TILESIZE)
-nobomb_tile = pygame.transform.scale(pygame.image.load(os.path.join("assets", f"Cell.png")), (TILESIZE, TILESIZE)
+empty_tile = pygame.transform.scale(pygame.image.load(os.path.join("assets", f"CellEmpty.png")), (TILESIZE, TILESIZE)
+exploded_tile = pygame.transform.scale(pygame.image.load(os.path.join("assets", f"CellExploded.png")), (TILESIZE, TILESIZE)
+flag_tile = pygame.transform.scale(pygame.image.load(os.path.join("assets", f"CellFlag.png")), (TILESIZE, TILESIZE)
+bomb_tile = pygame.transform.scale(pygame.image.load(os.path.join("assets", f"CellBomb.png")), (TILESIZE, TILESIZE)
+unknown_tile = pygame.transform.scale(pygame.image.load(os.path.join("assets", f"CellUnknown.png")), (TILESIZE, TILESIZE)
+nobomb_tile = pygame.transform.scale(pygame.image.load(os.path.join("assets", f"CellNoBomb.png")), (TILESIZE, TILESIZE)
