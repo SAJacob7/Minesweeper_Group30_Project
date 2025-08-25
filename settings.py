@@ -2,7 +2,7 @@
 BLACK = (0,0,0)
 WHITE = (255,255,255)
 RED = (255,0,0)
-LIGHTGREEN = (144)
+LIGHTGREEN = (144, 238, 144)
 GREEN = (0,255,0)
 DARKGREEN = (0,255,0)
 BLUE = (0,0,255)
@@ -17,7 +17,7 @@ BGCOLOR = DARKGREEN
 TILESIZE = 32
 ROWS = 10
 COLUMNS = 10
-BOMB_AMT = 10 #need to update so user-sepecifed from 10 to 20 
+BOMB_AMT = 10 #need to update so user-specifed from 10 to 20 
 WIDTH = TILESIZE * ROWS
 HEIGHT = TILESIZE * COLUMNS
 FPS = 60
